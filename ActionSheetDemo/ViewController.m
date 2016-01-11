@@ -15,8 +15,8 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-  [super viewDidLoad];
 
+  [super viewDidLoad];
 }
 
 #pragma mark - 按钮点击事件
@@ -41,7 +41,6 @@
   //这里的actionSheetStyle也可以不设置；
   actionSheet.actionSheetStyle = UIActionSheetStyleAutomatic;
   [actionSheet showInView:self.view];
-
 }
 
 /**
@@ -71,7 +70,6 @@
     default:
       break;
   }
-  
 }
 
 @end
